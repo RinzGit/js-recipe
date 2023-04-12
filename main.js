@@ -12,4 +12,4 @@ const genkiFunction = function (number) {
     }
   }
 }
-genkiFunction(24)
+genkiFunction(50)

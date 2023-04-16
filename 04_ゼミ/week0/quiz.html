@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <h1>好きなものクイズ</h1>
+    <div id="display">私の好きなことはなんでしょう？</div>
+    <button id="button">サッカー</button>
+    <button id="button2">ピアノ</button>
+    <button id="button3">ボーカル</button>
+    <script>
+      const button = document.getElementById("button")
+      const button2 = document.getElementById("button2")
+      const button3 = document.getElementById("button3")
+      const display = document.getElementById("display")
+      button.onclick = function () {
+        display.textContent = "半分正解"
+      }
+      button2.onclick = function () {
+        display.textContent = "８割正解！"
+      }
+      button3.onclick = function () {
+        display.textContent = "大正解！！！"
+      }
+    </script>
+  </body>
+</html>
